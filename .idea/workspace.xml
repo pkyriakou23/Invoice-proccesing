@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Finish with main!" />
+    <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Finish with main!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TRG/mainextra/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mainextra/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/CustomerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/CustomerProfile.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +73,7 @@
       <workItem from="1618220761578" duration="1000" />
       <workItem from="1618220817103" duration="26898000" />
       <workItem from="1618251066748" duration="512000" />
+      <workItem from="1618327285229" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="Finish with main!">
       <created>1618250911218</created>

@@ -23,17 +23,25 @@ public class app {
 
 
        do {
-           System.out.println("give service you want");
+           boolean flag=false;
+           System.out.println("give service you want:");
            s = new Scanner(System.in).nextLine();
            for (Triplet<String, String, Double> service : companiesServices) {
                if (s.equals(service.getValue0())) {
-                   System.out.println("give the quantity");
+                   flag=true;
+                   System.out.println("give the quantity:");
                    int n=new Scanner(System.in).nextInt();
-                  // String buffer=new Scanner(System.in).nextLine();
-                   Triplet<String,Integer,Double> temp=Triplet.with(service.getValue0(),n,n*service.getValue2());
+                   while(n<1) {
+                       System.out.println("give an integer bigger than 0:");
+                       n = new Scanner(System.in).nextInt();
+                   }
+                    Triplet<String,Integer,Double> temp=Triplet.with(service.getValue0(),n,n*service.getValue2());
                    cusServices.add(temp);
                }
+
            }
+           if(!flag)
+               System.out.println("This is not a service");
        }
         while(!s.equals("done"));
         cus.makeInvoice(cusServices);

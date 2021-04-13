@@ -12,6 +12,12 @@ public class CustomerProfile {
     private Set<String> service;
     private List<Invoices> invoices;
 
+    /**
+     *
+     * @param num   ->The account number
+     * @param name
+     * @param address
+     */
     public CustomerProfile(int num,String name,String address)
     {
         accNumber=num;
@@ -44,6 +50,14 @@ public class CustomerProfile {
         return true;
     }
 
+    /**
+     *
+     * @param services -> An ArrayList of Triplet<String,Integer,Double>
+     *
+     * </String,Integer,Double>     -> String is the name of the service
+     *                              -> Integer is the quantity
+     *                              -> Double is the final price(price*quantity)
+     */
     public void makeInvoice(ArrayList<Triplet<String,Integer,Double>> services)
     {
         for (Triplet<String, Integer, Double> service : services) {
