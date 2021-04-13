@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Test the input!" />
+    <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Test the input!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mypackage/CustomerProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mypackage/CustomerProfile.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,17 +55,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.app" />
@@ -81,6 +73,7 @@
       <workItem from="1618220817103" duration="26898000" />
       <workItem from="1618251066748" duration="512000" />
       <workItem from="1618327285229" duration="1355000" />
+      <workItem from="1618328918068" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Finish with main!">
       <created>1618250911218</created>
