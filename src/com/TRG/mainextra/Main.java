@@ -27,7 +27,7 @@ public class Main {
                 case "exit":
                     break;
                 default:
-                    System.out.println("This is not a service");
+                    System.out.println("This is not an option");
             }
 
 

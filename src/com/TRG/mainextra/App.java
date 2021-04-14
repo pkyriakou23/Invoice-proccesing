@@ -67,19 +67,20 @@ public class App {
              int num;
              String s = "";
 
-
-
-
             do {
                 boolean flag = false;
                 System.out.println("give service you want or 'done' to get the invoice:");
                 s = new Scanner(System.in).nextLine();
                 for (Triplet<String, String, Double> service : companiesServices) {
-                    if (s.equals(service.getValue0())) {
+
+                    if (s.equals(service.getValue0()))
+                    {
                         flag = true;
                         System.out.println("give the quantity:");
                         int n = new Scanner(System.in).nextInt();
-                        while (n < 1) {
+
+                        while (n < 1)
+                        {
                             System.out.println("give an integer bigger than 0:");
                             n = new Scanner(System.in).nextInt();
                         }
@@ -136,7 +137,9 @@ public class App {
         try {
             File file = new File("services.txt");
             Scanner read = new Scanner(file);
-            for (int i = 0; i < 3; i++) {
+
+            while (read.hasNextLine())
+            {
                 service = service.setAt0(read.nextLine());
                 service = service.setAt1(read.nextLine());
                 service = service.setAt2(Double.parseDouble(read.nextLine()));

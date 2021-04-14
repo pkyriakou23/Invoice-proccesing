@@ -1,13 +1,11 @@
 package com.TRG.mypackage;
 
-import org.javatuples.Pair;
 import org.javatuples.Triplet;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Date;
-import java.util.Iterator;
+
 
 class Invoices {
     private  int number;
@@ -29,7 +27,7 @@ class Invoices {
         amount=0;
         items= new ArrayList<>();
         number=num;
-        String date=(new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new Date()));
+         date=(new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new Date()));
         for (Triplet<String, Integer, Double> service : services)
         {
             amount+=service.getValue2();
@@ -47,7 +45,7 @@ class Invoices {
 
     public String toString() {
         return "Invoice number=" + number +
-                ", date='" + date + '\n' +
+                ", date=" + date + '\n' +
                 "items=" + items
                 + " amount=" + amount ;
     }

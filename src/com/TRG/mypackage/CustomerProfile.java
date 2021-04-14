@@ -77,7 +77,7 @@ public class CustomerProfile {
             invoices.add(invoice);
 
         accBalance = accBalance + invoices.get(invoices.size() - 1).getAmount();
-        System.out.println(invoice.toString());
+        System.out.println(invoice.toString() +'\n'+ "new balance="+accBalance);
 
     }
 
