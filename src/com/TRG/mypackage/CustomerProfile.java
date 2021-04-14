@@ -36,6 +36,16 @@ public class CustomerProfile {
 
     public Set<String> getService() { return service; }
 
+
+    public void printInvoices(int number)
+    {
+        for (Invoices i:invoices)
+            if(number==i.getNumber())
+            {  System.out.println(  i.toString() );
+               return;}
+        System.out.println("Could not find your invoice");
+    }
+
     public boolean setName(String name) {
         if(name == null ||name.equals(""))
             return false;
@@ -67,6 +77,8 @@ public class CustomerProfile {
             invoices.add(invoice);
 
         accBalance = accBalance + invoices.get(invoices.size() - 1).getAmount();
+        System.out.println(invoice.toString());
+
     }
 
 

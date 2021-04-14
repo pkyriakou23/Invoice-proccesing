@@ -46,7 +46,7 @@ class Invoices {
 
 
     public String toString() {
-        return "number=" + number +
+        return "Invoice number=" + number +
                 ", date='" + date + '\n' +
                 "items=" + items
                 + " amount=" + amount ;
