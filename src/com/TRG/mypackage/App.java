@@ -96,7 +96,7 @@ public class App {
             while (!s.equals("done"));
             printInvoice(true,cusServices);
          }
-       public void printInvoice(boolean make, ArrayList<Triplet<String,Integer,Double>> cusServices)
+       public void printInvoice(boolean makeNew, ArrayList<Triplet<String,Integer,Double>> cusServices)
         {
             int num;
             boolean flag=false;
@@ -110,7 +110,7 @@ public class App {
 
                  for (CustomerProfile c : cus)
                     if (num == c.getAccNumber()) {
-                        if(make)
+                        if(makeNew)
                                 c.makeInvoice(cusServices);
 
                         else
