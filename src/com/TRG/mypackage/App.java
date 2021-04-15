@@ -27,12 +27,17 @@ public class App {
 
         public App()
         {
-
-             companiesServices = fillServices();
+            companiesServices = fillServices();
             accNum =0;
             cus=new ArrayList<>();
         }
-        public void createCustomer()
+
+    /**
+     * Ask the user to give the necessary information
+     * and then call the constructor of CustomerProfile to add a new customer
+     * return to console the information included the customer's account number
+     */
+    public void createCustomer()
         {
             String name, add;
 
@@ -52,7 +57,13 @@ public class App {
             System.out.println("HERE IS YOU INFORMATION: "+'\n'+cus.toString(false,false));
             this.cus.add(cus);
         }
-        public void showInformation()
+
+    /**
+     * Ask the user to give the account number
+     * and return any information about them (except the invoices)
+     *
+     */
+    public void showInformation()
         {
             int num;
             System.out.println("Give the account number or -1 to exit:");
@@ -68,7 +79,12 @@ public class App {
 
             System.out.println("Couldn't find your account number ");
         }
-         public void getService()
+
+    /**
+     * Ask the user about which services he wants and at what quantity
+     * and call the printInvoice to return the invoice to the customer
+     */
+    public void getService()
          {
              ArrayList<Triplet<String,Integer,Double>> cusServices = new ArrayList<>();
              int num;
@@ -105,6 +121,14 @@ public class App {
             { System.out.println("You don't get any service"); return;}
             printInvoice(true,cusServices);
          }
+
+    /**
+     * Ask the user for the account number of the customer's account and print an exist or make a new invoice
+     * if he wants to print an exist he has to give the invoice number too
+     * @param makeNew ->true to make a new / false to print an exist INVOICE
+     * @param cusServices -> which services customer wants
+     */
+
        public void printInvoice(boolean makeNew, ArrayList<Triplet<String,Integer,Double>> cusServices)
         {
             int num;

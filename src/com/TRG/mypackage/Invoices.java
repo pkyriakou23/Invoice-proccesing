@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- *  Represent an invoice with the necessary information
+ *  Represent an invoice with the necessary information.
+ *  Protected class and constructor
  *
  *  number -> invoice number
  *  date
@@ -39,7 +40,6 @@ class Invoices {
         {
             amount+=service.getValue2();
             items.add(service);
-
         }
 
     }

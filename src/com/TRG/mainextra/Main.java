@@ -13,6 +13,7 @@ import java.util.Scanner;
  * @author Panayiotis Kyriacou
  */
 public class Main {
+
     public static void main(String[] args) {
         App a=new App();
         String com="";

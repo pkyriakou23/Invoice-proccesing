@@ -1,7 +1,7 @@
 format
 At Pc/laptop deleting all of the data and setting up a file system to make it faster or removing a virus.
 15.0
-antivirus 
+antivirus
 Add the XYZ antivirus to protect you for a year.
 30
 ram
