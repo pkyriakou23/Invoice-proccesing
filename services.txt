@@ -1,12 +1,11 @@
-cleaning room
-cleaning the room and make the bed and cleaning tha window
-12.50
-car
-cleaning the car inside and outside
-7
-dog
-going volta with the dog
-2.30
-grass
-make the grass
-10
+format
+At Pc/laptop deleting all of the data and setting up a file system to make it faster or removing a virus.
+15.0
+antivirus 
+Add the XYZ antivirus to protect you for a year.
+30
+ram
+Add a 6GB ram to make your pc/laptop faster.
+35.50
+uptade
+Uptade your operating system40
