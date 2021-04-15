@@ -45,7 +45,7 @@ public class CustomerProfile {
                return;}
         System.out.println("Could not find your invoice");
     }
-
+/*
     public boolean setName(String name) {
         if(name == null ||name.equals(""))
             return false;
@@ -59,7 +59,7 @@ public class CustomerProfile {
         this.address = address;
         return true;
     }
-
+*/
     /**
      *
      * @param services -> An ArrayList of Triplet<String,Integer,Double>

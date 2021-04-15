@@ -6,7 +6,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-
+/**
+ *  This class represent an invoice
+ */
 class Invoices {
     private  int number;
     private String date;
