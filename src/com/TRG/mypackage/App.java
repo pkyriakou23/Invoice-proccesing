@@ -10,7 +10,14 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
+/**
+ * A project which requested to implement an application that will manage the invoicing of a company’s customer accounts based on the services their customers use.
+ * First needs to hold information about the customer such as name, address, account number and account balance.
+ * Second needs the company's service with name, description and price.
+ * Third has to make and print the invoice of a service purchase so need the invoice number, date, services and the total amount
+ *
+ * @author Panayiotis Kyriacou
+ */
 public class App {
 
     ArrayList<Triplet<String, String, Double>> companiesServices;
@@ -69,7 +76,7 @@ public class App {
 
             do {
                 boolean flag = false;
-                System.out.println("give service you want or 'done' to get the invoice:");
+                System.out.println("Give service you want or 'done' to get the invoice:");
                 s = new Scanner(System.in).nextLine();
                 for (Triplet<String, String, Double> service : companiesServices) {
 
@@ -94,6 +101,8 @@ public class App {
                     System.out.println("This is not a service");
             }
             while (!s.equals("done"));
+            if(cusServices.size()==0)
+            { System.out.println("You don't get any service"); return;}
             printInvoice(true,cusServices);
          }
        public void printInvoice(boolean makeNew, ArrayList<Triplet<String,Integer,Double>> cusServices)

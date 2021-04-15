@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Finish-add a service! without comments">
-      <change afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TRG/mainextra/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TRG/mainextra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mainextra/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/CustomerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/CustomerProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/Invoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/Invoices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/Services.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -111,6 +122,7 @@
       <workItem from="1618407179282" duration="541000" />
       <workItem from="1618408003500" duration="3259000" />
       <workItem from="1618470180093" duration="159000" />
+      <workItem from="1618470716129" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="Finish with main!">
       <created>1618250911218</created>

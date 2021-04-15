@@ -5,7 +5,12 @@ import com.TRG.mypackage.App;
 import java.util.Scanner;
 
 /**
- *
+ *  It has the main method that gets from the user input about what they want to do. The user has 4 options,
+ *  to create a new customer account,
+ *  to get information about the customer's account,
+ *  to purchase services and
+ *  to get information about an invoice.
+ * @author Panayiotis Kyriacou
  */
 public class Main {
     public static void main(String[] args) {

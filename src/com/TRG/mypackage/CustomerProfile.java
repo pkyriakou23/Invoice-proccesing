@@ -13,10 +13,11 @@ public class CustomerProfile {
     private List<Invoices> invoices;
 
     /**
+     * Represent the customer's profile with the necessary information.
      *
-     * @param num   ->The account number
-     * @param name
-     * @param address
+     *  num   ->The account number
+     *  name  ->Customer name
+     * address ->Customer address
      */
     public CustomerProfile(int num,String name,String address)
     {

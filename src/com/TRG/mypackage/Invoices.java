@@ -7,7 +7,12 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- *  This class represent an invoice
+ *  Represent an invoice with the necessary information
+ *
+ *  number -> invoice number
+ *  date
+ *  item -> items/services customer purchased
+ *       -> which include Service name, Quantity, Amount(quantity*price)
  */
 class Invoices {
     private  int number;
