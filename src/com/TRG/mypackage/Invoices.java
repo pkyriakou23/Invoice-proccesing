@@ -6,7 +6,14 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-
+/**
+ *  Represent an invoice with the necessary information
+ *
+ *  number -> invoice number
+ *  date
+ *  item -> items/services customer purchased
+ *       -> which include Service name, Quantity, Amount(quantity*price)
+ */
 class Invoices {
     private  int number;
     private String date;

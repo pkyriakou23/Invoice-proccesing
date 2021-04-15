@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Finish! without comments">
+    <list default="true" id="e0018cb7-ebb2-432b-a714-e50f80e0cbed" name="Default Changelist" comment="Finish-add a service! without comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/app.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mypackage/CustomerProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mypackage/CustomerProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mypackage/Invoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mypackage/Invoices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.txt" beforeDir="false" afterPath="$PROJECT_DIR$/services.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app_costumer_invoice/com/TRG/mainextra/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TRG/mainextra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mainextra/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/CustomerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/CustomerProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TRG/mypackage/Invoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TRG/mypackage/Invoices.java" afterDir="false" />
     </list>
@@ -28,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="addJUnitTest" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,14 +51,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javatuples-1.2-dist/javatuples-1.2/dist/javatuples-1.2.jar" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.TRG.mypackage" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.TRG.mainextra.App" />
+      <option name="MAIN_CLASS_NAME" value="com.TRG.mypackage.App" />
       <module name="app_costumer_invoice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,7 +75,7 @@
       <module name="app_costumer_invoice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.TRG.mainextra.*" />
+          <option name="PATTERN" value="com.TRG.mypackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,7 +116,13 @@
       <workItem from="1618328918068" duration="63000" />
       <workItem from="1618329316855" duration="1617000" />
       <workItem from="1618331285155" duration="3265000" />
-      <workItem from="1618391737380" duration="4631000" />
+      <workItem from="1618391737380" duration="5687000" />
+      <workItem from="1618398014124" duration="75000" />
+      <workItem from="1618398363033" duration="181000" />
+      <workItem from="1618407179282" duration="541000" />
+      <workItem from="1618408003500" duration="3259000" />
+      <workItem from="1618470180093" duration="159000" />
+      <workItem from="1618470716129" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="Finish with main!">
       <created>1618250911218</created>
@@ -134,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618395563580</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finish-add a service! without comments">
+      <created>1618396669805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618396669805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +186,7 @@
     <MESSAGE value="Finish with main!" />
     <MESSAGE value="Test the input!" />
     <MESSAGE value="Finish! without comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish! without comments" />
+    <MESSAGE value="Finish-add a service! without comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish-add a service! without comments" />
   </component>
 </project>
